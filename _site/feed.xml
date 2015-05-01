@@ -6,17 +6,48 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Apr 2015 23:00:50 +0300</pubDate>
-    <lastBuildDate>Thu, 30 Apr 2015 23:00:50 +0300</lastBuildDate>
+    <pubDate>Fri, 01 May 2015 12:21:09 +0300</pubDate>
+    <lastBuildDate>Fri, 01 May 2015 12:21:09 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to Bavel!</title>
+        <title>Welcome to Bavel community!</title>
         <description>&lt;p&gt;You’re invited to download our SDK and join our community.&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/general/2015/04/30/welcome-to-bavel.html</link>
         <guid isPermaLink="true">http://wiki.bavel.io/general/2015/04/30/welcome-to-bavel.html</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>SDK Download and installation</title>
+        <description>&lt;p&gt;Download here: &lt;a href=&quot;#&quot;&gt;SDK&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Install: &lt;br /&gt;
+1. download&lt;br /&gt;
+2. implement&lt;br /&gt;
+3. users&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
+        <link>http://wiki.bavel.io/general/2015/04/29/download-and-install.html</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/general/2015/04/29/download-and-install.html</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>FAQ</title>
+        <description>&lt;p&gt;How to x:&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Apr 2015 18:07:04 +0300</pubDate>
+        <link>http://wiki.bavel.io/general/2015/04/28/faq.html</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/general/2015/04/28/faq.html</guid>
         
         
         <category>general</category>

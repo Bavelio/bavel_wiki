@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "FAQ"
+date:   2015-04-28 15:07:04
+categories: General
+---
+How to x:
