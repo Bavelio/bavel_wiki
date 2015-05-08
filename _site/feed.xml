@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 May 2015 17:08:02 +0300</pubDate>
-    <lastBuildDate>Thu, 07 May 2015 17:08:02 +0300</lastBuildDate>
+    <pubDate>Fri, 08 May 2015 20:12:40 +0300</pubDate>
+    <lastBuildDate>Fri, 08 May 2015 20:12:40 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -30,11 +30,6 @@
       <item>
         <title>SDK Download and installation</title>
         <description>&lt;p&gt;Download here: &lt;a href=&quot;#&quot;&gt;SDK&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Install: &lt;br /&gt;
-1. download&lt;br /&gt;
-2. implement&lt;br /&gt;
-3. users&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/general/2015/04/29/download-and-install.html</link>
