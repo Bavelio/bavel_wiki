@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 May 2015 12:13:00 +0300</pubDate>
-    <lastBuildDate>Sat, 09 May 2015 12:13:00 +0300</lastBuildDate>
+    <pubDate>Wed, 13 May 2015 12:19:59 +0300</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 12:19:59 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -29,7 +29,38 @@
     
       <item>
         <title>SDK Download and installation</title>
-        <description>&lt;p&gt;Download here: &lt;a href=&quot;#&quot;&gt;SDK&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;h2 id=&quot;jump-to-platform&quot;&gt;Jump to platform&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;android-nativeandroid-native&quot;&gt;&lt;a href=&quot;#android-native&quot;&gt;Android Native&lt;/a&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;android-unity3dandroid-unity3d&quot;&gt;&lt;a href=&quot;#android-unity3d&quot;&gt;Android Unity3D&lt;/a&gt;&lt;/h4&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;android-native&quot;&gt;Android Native&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;download-the-sdk-packageaar-file&quot;&gt;&lt;a href=&quot;&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;download-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;import-the-package-to-your-unity-project&quot;&gt;Import the package to your Unity project&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;place-our-button-in-the-scenes-you-want&quot;&gt;Place our button in the scenes you want&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 </description>
         <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/general/2015/04/29/download-and-install.html</link>
