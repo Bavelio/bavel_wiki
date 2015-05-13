@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 May 2015 22:01:32 +0300</pubDate>
-    <lastBuildDate>Wed, 13 May 2015 22:01:32 +0300</lastBuildDate>
+    <pubDate>Wed, 13 May 2015 22:40:04 +0300</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 22:40:04 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -100,8 +100,25 @@
     
       <item>
         <title>FAQ</title>
-        <description>&lt;h3 id=&quot;where-to-start-br&quot;&gt;Where to start: &lt;br /&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;/download-and-install&quot;&gt;download and install our SDK&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;h3 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h3&gt;
+&lt;p&gt;Bavel offers app developers to implement our button in their app which makes the app member in our network.
+From that moment we will send users to your app according to how good it is.&lt;br /&gt;
+&lt;img src=&quot;/images/example_app.png&quot; alt=&quot;Exmaple_app&quot; /&gt;
+Its the blue button :)&lt;/p&gt;
+
+&lt;p&gt;The button from time to time will suggest your users to download apps from our network.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-much-does-it-cost&quot;&gt;How much does it cost?&lt;/h3&gt;
+&lt;p&gt;The service is completely free for app developers.&lt;/p&gt;
+
+&lt;h3 id=&quot;can-i-buy-ads-from-bavel&quot;&gt;Can I buy ads from Bavel?&lt;/h3&gt;
+&lt;p&gt;No, our network suggests content based on our algorithms only, which measures our members apps and gives the most relevant and likable app possible each time.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-i-have-to-keep-any-ratio-to-receive-traffic&quot;&gt;Do I have to keep any ratio to receive traffic?&lt;/h3&gt;
+&lt;p&gt;No, even if your app doesn’t have any users/traffic you will be promoted according to our algorithms assessment only.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-do-i-start-br&quot;&gt;Where do I start? &lt;br /&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/download-and-install&quot;&gt;Download and install our SDK&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/faq</link>

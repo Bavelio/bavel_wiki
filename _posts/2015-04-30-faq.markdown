@@ -4,5 +4,22 @@ title:  "FAQ"
 date:   2015-04-28 15:07:04
 categories: General
 ---
-### Where to start: <br>
-[download and install our SDK](/download-and-install)
+### What is it?
+Bavel offers app developers to implement our button in their app which makes the app member in our network.
+From that moment we will send users to your app according to how good it is.<br>
+![Exmaple_app](/images/example_app.png)
+Its the blue button :)
+
+The button from time to time will suggest your users to download apps from our network.
+
+### How much does it cost?
+The service is completely free for app developers.
+
+### Can I buy ads from Bavel?
+No, our network suggests content based on our algorithms only, which measures our members apps and gives the most relevant and likable app possible each time.
+
+### Do I have to keep any ratio to receive traffic?
+No, even if your app doesn't have any users/traffic you will be promoted according to our algorithms assessment only.
+
+### Where do I start? <br>
+[Download and install our SDK](/download-and-install)
