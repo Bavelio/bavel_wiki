@@ -5,4 +5,4 @@ date:   2015-04-28 15:07:04
 categories: General
 ---
 ### Where to start: <br>
-[download and install our SDK](/general/2015/04/29/download-and-install.html)
+[download and install our SDK](/download-and-install)

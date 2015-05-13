@@ -6,21 +6,21 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 May 2015 17:53:42 +0300</pubDate>
-    <lastBuildDate>Wed, 13 May 2015 17:53:42 +0300</lastBuildDate>
+    <pubDate>Wed, 13 May 2015 19:26:29 +0300</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 19:26:29 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Welcome to Bavel community!</title>
-        <description>&lt;h4 id=&quot;youre-invited-to-download-our-sdkgeneral20150429download-and-installhtml-and-join-our-community&quot;&gt;You’re invited to &lt;a href=&quot;/general/2015/04/29/download-and-install.html&quot;&gt;download our SDK&lt;/a&gt; and join our community.&lt;/h4&gt;
+        <description>&lt;h4 id=&quot;youre-invited-to-download-our-sdkdownload-and-install-and-join-our-community&quot;&gt;You’re invited to &lt;a href=&quot;/download-and-install&quot;&gt;download our SDK&lt;/a&gt; and join our community.&lt;/h4&gt;
 
 &lt;h4 id=&quot;bavel-alpha-grouphttpsgroupsgooglecomforumforumbavel-alphabr&quot;&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/bavel-alpha&quot;&gt;Bavel Alpha group&lt;/a&gt;&lt;br /&gt;&lt;/h4&gt;
 
 &lt;h4 id=&quot;community-qahttpsgroupsgooglecomforumforumbavel-support-br&quot;&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/bavel-support&quot;&gt;Community Q&amp;amp;A&lt;/a&gt; &lt;br /&gt;&lt;/h4&gt;
 </description>
         <pubDate>Thu, 30 Apr 2015 18:07:04 +0300</pubDate>
-        <link>http://wiki.bavel.io/general/2015/04/30/welcome-to-bavel.html</link>
-        <guid isPermaLink="true">http://wiki.bavel.io/general/2015/04/30/welcome-to-bavel.html</guid>
+        <link>http://wiki.bavel.io/welcome-to-bavel</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/welcome-to-bavel</guid>
         
         
         <category>general</category>
@@ -90,8 +90,8 @@
 
 </description>
         <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
-        <link>http://wiki.bavel.io/general/2015/04/29/download-and-install.html</link>
-        <guid isPermaLink="true">http://wiki.bavel.io/general/2015/04/29/download-and-install.html</guid>
+        <link>http://wiki.bavel.io/download-and-install</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/download-and-install</guid>
         
         
         <category>general</category>
@@ -101,11 +101,11 @@
       <item>
         <title>FAQ</title>
         <description>&lt;h3 id=&quot;where-to-start-br&quot;&gt;Where to start: &lt;br /&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;/general/2015/04/29/download-and-install.html&quot;&gt;download and install our SDK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/download-and-install&quot;&gt;download and install our SDK&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Apr 2015 18:07:04 +0300</pubDate>
-        <link>http://wiki.bavel.io/general/2015/04/28/faq.html</link>
-        <guid isPermaLink="true">http://wiki.bavel.io/general/2015/04/28/faq.html</guid>
+        <link>http://wiki.bavel.io/faq</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/faq</guid>
         
         
         <category>general</category>
