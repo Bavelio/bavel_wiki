@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 May 2015 12:19:59 +0300</pubDate>
-    <lastBuildDate>Wed, 13 May 2015 12:19:59 +0300</lastBuildDate>
+    <pubDate>Wed, 13 May 2015 12:30:20 +0300</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 12:30:20 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -43,7 +43,7 @@
 &lt;h2 id=&quot;android-native&quot;&gt;Android Native&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;download-the-sdk-packageaar-file&quot;&gt;&lt;a href=&quot;&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/h4&gt;
+    &lt;h4 id=&quot;downloadsdkbavelandroidsdkv01aarzip-the-sdk-packageaar-file&quot;&gt;&lt;a href=&quot;/sdk/bavel_android_sdk_v01.aar.zip&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -52,7 +52,7 @@
 &lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;download-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
+    &lt;h4 id=&quot;downloadsdkbavelunitysdkv01unitypackagezip-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;/sdk/bavel_unity_sdk_v01.unitypackage.zip&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;import-the-package-to-your-unity-project&quot;&gt;Import the package to your Unity project&lt;/h4&gt;
