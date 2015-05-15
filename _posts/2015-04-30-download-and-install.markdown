@@ -16,7 +16,7 @@ The end result should look something like that:
 <br><br>
 
 ##Android Native
-1. #### [Download](/sdk/bavel_android_sdk_v01.aar) the SDK package(AAR file)
+1. #### [Download](#android-native) the SDK package(AAR file)
 
 #### Note: The SDK require these permissions:
 {% highlight xml %}
