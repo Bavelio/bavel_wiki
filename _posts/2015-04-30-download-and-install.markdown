@@ -18,8 +18,9 @@ The end result should look something like that:
 ##Android Native - Android Studio
 * [Download](http://bit.ly/1Ea6vR5) the SDK package(AAR file)
 * Copy the file AAR file into the libs folder of your project
+<br/>
 ![Import AAR](/images/android_native_import_aar.png)
-
+<br/>
 * Add the following lines into your `build.gradle` file
 {% highlight js %}
 repositories{
@@ -47,7 +48,7 @@ compile(name:'android_sdk-release', ext:'aar')
 {% endhighlight %}
 
 * #### Don't forget to fill your Developer ID under `bavel:developer_id`
-
+* Now you should see our button in your layout
 ![native android final result](/images/android_native_final_result.png)
 
 
