@@ -11,7 +11,7 @@ The end result should look something like that:
 ![Example App](/images/example_app.png)
 
 ##Jump to platform
-1. ####[Android Native(Android Studio)](#android-native)
+1. ####[Android Native(Android Studio)](#android-native---android-studio)
 2. ####[Android Unity3D](#android-unity3d)
 <br><br>
 

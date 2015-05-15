@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 May 2015 00:07:39 +0300</pubDate>
-    <lastBuildDate>Sat, 16 May 2015 00:07:39 +0300</lastBuildDate>
+    <pubDate>Sat, 16 May 2015 00:09:26 +0300</pubDate>
+    <lastBuildDate>Sat, 16 May 2015 00:09:26 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -62,7 +62,7 @@
 &lt;h2 id=&quot;jump-to-platform&quot;&gt;Jump to platform&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;android-nativeandroid-studioandroid-native&quot;&gt;&lt;a href=&quot;#android-native&quot;&gt;Android Native(Android Studio)&lt;/a&gt;&lt;/h4&gt;
+    &lt;h4 id=&quot;android-nativeandroid-studioandroid-native---android-studio&quot;&gt;&lt;a href=&quot;#android-native---android-studio&quot;&gt;Android Native(Android Studio)&lt;/a&gt;&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;android-unity3dandroid-unity3d&quot;&gt;&lt;a href=&quot;#android-unity3d&quot;&gt;Android Unity3D&lt;/a&gt;&lt;/h4&gt;
