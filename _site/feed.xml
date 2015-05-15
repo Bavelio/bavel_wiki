@@ -6,9 +6,9 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 May 2015 23:33:16 +0300</pubDate>
-    <lastBuildDate>Fri, 15 May 2015 23:33:16 +0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Fri, 15 May 2015 23:36:25 +0300</pubDate>
+    <lastBuildDate>Fri, 15 May 2015 23:36:25 +0300</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Welcome to Bavel community!</title>
@@ -21,6 +21,31 @@
         <pubDate>Thu, 30 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/welcome-to-bavel</link>
         <guid isPermaLink="true">http://wiki.bavel.io/welcome-to-bavel</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Started</title>
+        <description>&lt;h2 id=&quot;step-1&quot;&gt;Step 1&lt;/h2&gt;
+&lt;p&gt;Sign up to our developers &lt;a href=&quot;http://www.bavel.io/developers&quot;&gt;console&lt;/a&gt; to get a developer ID.
+&lt;img src=&quot;/images/dev_id.png&quot; alt=&quot;Developers Console&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2&quot;&gt;Step 2&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/download-and-install&quot;&gt;Download and implement&lt;/a&gt; our SDK.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3&quot;&gt;Step 3&lt;/h2&gt;
+&lt;p&gt;After the SDK is implemented, launch your app with it and you should see it in your developer &lt;a href=&quot;http://www.bavel.io/developers&quot;&gt;console&lt;/a&gt; with state “Unverified”.
+&lt;img src=&quot;/images/dev_unverified.png&quot; alt=&quot;Developer Unverified&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4&quot;&gt;Step 4&lt;/h2&gt;
+&lt;p&gt;Upload your updated app to the store, and in few hours your app will be verified and you’ll be able to watch states in the developers console.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
+        <link>http://wiki.bavel.io/getting-started</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/getting-started</guid>
         
         
         <category>general</category>
@@ -48,10 +73,10 @@
 &lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/1Ea6vR5&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/li&gt;
-  &lt;li&gt;Copy the file AAR file into the libs folder of your project
-&lt;br /&gt;
-&lt;img src=&quot;/images/android_native_import_aar.png&quot; alt=&quot;Import AAR&quot; /&gt;
-&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Copy the file AAR file into the libs folder of your project
+&lt;img src=&quot;/images/android_native_import_aar.png&quot; alt=&quot;Import AAR&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;Add the following lines into your &lt;code&gt;build.gradle&lt;/code&gt; file&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -85,9 +110,9 @@
   &lt;li&gt;
     &lt;h4 id=&quot;dont-forget-to-fill-your-developer-id-under-baveldeveloperid&quot;&gt;Don’t forget to fill your Developer ID under &lt;code&gt;bavel:developer_id&lt;/code&gt;&lt;/h4&gt;
   &lt;/li&gt;
-  &lt;li&gt;Now you should see our button in your layout
-&lt;img src=&quot;/images/android_native_final_result.png&quot; alt=&quot;native android final result&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/android_native_final_result.png&quot; alt=&quot;native android final result&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
