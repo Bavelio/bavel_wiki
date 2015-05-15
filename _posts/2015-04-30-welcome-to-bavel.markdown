@@ -4,7 +4,7 @@ title:  "Welcome to Bavel community!"
 date:   2015-04-30 15:07:04
 categories: General
 ---
-#### You're invited to [download our SDK](/download-and-install) and join our community.
+#### You're invited to [join our community](/getting-started).
 
 #### [Bavel Alpha group](https://groups.google.com/forum/#!forum/bavel-alpha)<br>
 

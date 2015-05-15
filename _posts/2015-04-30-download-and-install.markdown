@@ -10,17 +10,19 @@ This quick guide will teach you how to implement our SDK.
 The end result should look something like that:
 ![Example App](/images/example_app.png)
 
+
+
 ##Jump to platform
-1. ####[Android Native(Android Studio)](#android-native)
+1. ####[Android Native(Android Studio)](#android-native---android-studio)
 2. ####[Android Unity3D](#android-unity3d)
 <br><br>
 
 ##Android Native - Android Studio
-* [Download](http://bit.ly/1Ea6vR5) the SDK package(AAR file)
-* Copy the file AAR file into the libs folder of your project
+1. [Download](#android-native) the SDK package(AAR file)
+2. Copy the AAR file into the libs folder of your project
 ![Import AAR](/images/android_native_import_aar.png)
 
-* Add the following lines into your `build.gradle` file
+3. Add the following lines into your `build.gradle` file
 {% highlight js %}
 repositories{
     flatDir{
@@ -29,7 +31,7 @@ repositories{
 }
 {% endhighlight %}
 
-* Add the following line into your `build.gradle` file under dependencies section
++ Add the following line into your `build.gradle` file under dependencies section
 {% highlight js %}
 compile(name:'android_sdk-release', ext:'aar')
 {% endhighlight %}
@@ -37,7 +39,7 @@ compile(name:'android_sdk-release', ext:'aar')
 ![build.gradle](/images/android_native_build_gradle.png)
 
 
-* #### Add Bavel button to your layout using the following lines
+5. #### Add Bavel button to your layout using the following lines
 {% highlight xml %}
 <io.bavel.android_sdk.button.Button
     xmlns:bavel="http://schemas.android.com/apk/res-auto"
@@ -46,15 +48,16 @@ compile(name:'android_sdk-release', ext:'aar')
     android:layout_width="100dip" />
 {% endhighlight %}
 
-* #### Don't forget to fill your Developer ID under `bavel:developer_id`
+6. #### Don't forget to fill your Developer ID under `bavel:developer_id`
 
 ![native android final result](/images/android_native_final_result.png)
 
+7. #### You can find sample app in our repository
 
 <br><br>
 
 ##Android Unity3D
-1. ####[Download](http://bit.ly/1Kbb6uO) the SDK package(UnityPackage file)
+1. ####[Download](/sdk/bavel_unity_sdk_v01.unitypackage) the SDK package(UnityPackage file)
 2. #### Import the package to your Unity project
 Double click on the unity package file and click on Import
 ![Import Package](/images/unity_import.png)
