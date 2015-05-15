@@ -18,11 +18,20 @@ The end result should look something like that:
 <br><br>
 
 ##Android Native - Android Studio
+<<<<<<< HEAD
 1. [Download](#android-native) the SDK package(AAR file)
 2. Copy the AAR file into the libs folder of your project
 ![Import AAR](/images/android_native_import_aar.png)
 
 3. Add the following lines into your `build.gradle` file
+=======
+* [Download](http://bit.ly/1Ea6vR5) the SDK package(AAR file)
+* Copy the file AAR file into the libs folder of your project
+<br/>
+![Import AAR](/images/android_native_import_aar.png)
+<br/>
+* Add the following lines into your `build.gradle` file
+>>>>>>> 564874b9a0ba5e5bde9981ed73deafe2d165c4fa
 {% highlight js %}
 repositories{
     flatDir{
