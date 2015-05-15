@@ -26,7 +26,7 @@ No, even if your app doesn't have any users/traffic you will be promoted accordi
 
 ### Why I can't see any apps in my console?
 You need to implement our SDK according to the instructions at [Download and install page](/download-and-install).
-After you implement it correctly and launched the app with your SDK and developer ID your app will show in the console.
+After you implement it correctly and launched the app with the SDK and your developer ID your app will appear in the console.
 
 ### Why is my app state "Unverified"?
 Your app is waiting for verification by us. You should upload the new apk to the store and in few hours we will verify your app.

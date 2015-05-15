@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 May 2015 20:01:02 +0300</pubDate>
-    <lastBuildDate>Fri, 15 May 2015 20:01:02 +0300</lastBuildDate>
+    <pubDate>Fri, 15 May 2015 20:26:51 +0300</pubDate>
+    <lastBuildDate>Fri, 15 May 2015 20:26:51 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -122,7 +122,7 @@ Its the blue button :)&lt;/p&gt;
 
 &lt;h3 id=&quot;why-i-cant-see-any-apps-in-my-console&quot;&gt;Why I can’t see any apps in my console?&lt;/h3&gt;
 &lt;p&gt;You need to implement our SDK according to the instructions at &lt;a href=&quot;/download-and-install&quot;&gt;Download and install page&lt;/a&gt;.
-After you implement it correctly and launched the app with your SDK and developer ID your app will show in the console.&lt;/p&gt;
+After you implement it correctly and launched the app with the SDK and your developer ID your app will appear in the console.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-is-my-app-state-unverified&quot;&gt;Why is my app state “Unverified”?&lt;/h3&gt;
 &lt;p&gt;Your app is waiting for verification by us. You should upload the new apk to the store and in few hours we will verify your app.&lt;/p&gt;
