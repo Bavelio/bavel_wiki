@@ -70,7 +70,7 @@
 <h2 id="jump-to-platform">Jump to platform</h2>
 <ol>
   <li>
-    <h4 id="android-nativeandroid-native"><a href="#android-native">Android Native</a></h4>
+    <h4 id="android-nativeandroid-studioandroid-native"><a href="#android-native">Android Native(Android Studio)</a></h4>
   </li>
   <li>
     <h4 id="android-unity3dandroid-unity3d"><a href="#android-unity3d">Android Unity3D</a></h4>
@@ -78,17 +78,55 @@
   </li>
 </ol>
 
-<h2 id="android-native">Android Native</h2>
+<h2 id="android-native---android-studio">Android Native - Android Studio</h2>
+<ol>
+  <li><a href="#android-native">Download</a> the SDK package(AAR file)</li>
+  <li>
+    <p>Copy the file AAR file into the libs folder of your project
+<img src="/images/android_native_import_aar.png" alt="Import AAR" /></p>
+  </li>
+  <li>Add the following lines into your <code>build.gradle</code> file</li>
+</ol>
+
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">repositories</span><span class="p">{</span>
+    <span class="nx">flatDir</span><span class="p">{</span>
+        <span class="nx">dirs</span> <span class="s1">&#39;libs&#39;</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+
+<ul>
+  <li>Add the following line into your <code>build.gradle</code> file under dependencies section</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">compile</span><span class="p">(</span><span class="nx">name</span><span class="o">:</span><span class="s1">&#39;android_sdk-release&#39;</span><span class="p">,</span> <span class="nx">ext</span><span class="o">:</span><span class="s1">&#39;aar&#39;</span><span class="p">)</span></code></pre></div>
+
+<p><img src="/images/android_native_build_gradle.png" alt="build.gradle" /></p>
+
 <ol>
   <li>
-    <h4 id="downloadandroid-native-the-sdk-packageaar-file"><a href="#android-native">Download</a> the SDK package(AAR file)</h4>
+    <h4 id="add-bavel-button-to-your-layout-using-the-following-lines">Add Bavel button to your layout using the following lines</h4>
   </li>
 </ol>
 
-<h4 id="note-the-sdk-require-these-permissions">Note: The SDK require these permissions:</h4>
+<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;io.bavel.android_sdk.button.Button</span>
+    <span class="na">xmlns:bavel=</span><span class="s">&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="na">bavel:developer_id=</span><span class="s">&quot;FILL_DEVELOPER_ID_HERE&quot;</span>
+    <span class="na">android:layout_height=</span><span class="s">&quot;100dip&quot;</span>
+    <span class="na">android:layout_width=</span><span class="s">&quot;100dip&quot;</span> <span class="nt">/&gt;</span></code></pre></div>
 
-<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.INTERNET&quot;</span> <span class="nt">/&gt;</span>
-<span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.ACCESS_NETWORK_STATE&quot;</span><span class="nt">/&gt;</span></code></pre></div>
+<ol>
+  <li>
+    <h4 id="dont-forget-to-fill-your-developer-id-under-baveldeveloperid">Don’t forget to fill your Developer ID under <code>bavel:developer_id</code></h4>
+  </li>
+</ol>
+
+<p><img src="/images/android_native_final_result.png" alt="native android final result" /></p>
+
+<ol>
+  <li>
+    <h4 id="you-can-find-sample-app-in-our-repository">You can find sample app in our repository</h4>
+  </li>
+</ol>
 
 <p><br /><br /></p>
 
@@ -116,7 +154,7 @@
 
 <p><img src="/images/unity_dev_id.png" alt="Button Developer Id" /></p>
 
-<h4 id="note-the-sdk-require-these-permissions-1">Note: The SDK require these permissions:</h4>
+<h4 id="note-the-sdk-require-these-permissions">Note: The SDK require these permissions:</h4>
 
 <div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.INTERNET&quot;</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.ACCESS_NETWORK_STATE&quot;</span><span class="nt">/&gt;</span></code></pre></div>

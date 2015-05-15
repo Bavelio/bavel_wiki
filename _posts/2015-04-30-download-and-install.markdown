@@ -11,18 +11,46 @@ The end result should look something like that:
 ![Example App](/images/example_app.png)
 
 ##Jump to platform
-1. ####[Android Native](#android-native)
+1. ####[Android Native(Android Studio)](#android-native)
 2. ####[Android Unity3D](#android-unity3d)
 <br><br>
 
-##Android Native
-1. #### [Download](#android-native) the SDK package(AAR file)
+##Android Native - Android Studio
+1. [Download](#android-native) the SDK package(AAR file)
+2. Copy the file AAR file into the libs folder of your project
+![Import AAR](/images/android_native_import_aar.png)
 
-#### Note: The SDK require these permissions:
-{% highlight xml %}
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+3. Add the following lines into your `build.gradle` file
+{% highlight js %}
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
+}
 {% endhighlight %}
+
++ Add the following line into your `build.gradle` file under dependencies section
+{% highlight js %}
+compile(name:'android_sdk-release', ext:'aar')
+{% endhighlight %}
+
+![build.gradle](/images/android_native_build_gradle.png)
+
+
+5. #### Add Bavel button to your layout using the following lines
+{% highlight xml %}
+<io.bavel.android_sdk.button.Button
+    xmlns:bavel="http://schemas.android.com/apk/res-auto"
+    bavel:developer_id="FILL_DEVELOPER_ID_HERE"
+    android:layout_height="100dip"
+    android:layout_width="100dip" />
+{% endhighlight %}
+
+6. #### Don't forget to fill your Developer ID under `bavel:developer_id`
+
+![native android final result](/images/android_native_final_result.png)
+
+7. #### You can find sample app in our repository
 
 <br><br>
 
