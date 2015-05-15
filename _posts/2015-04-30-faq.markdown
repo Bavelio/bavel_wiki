@@ -30,3 +30,5 @@ After you implement it correctly and launched the app with the SDK and your deve
 
 ### Why is my app state "Unverified"?
 Your app is waiting for verification by us. You should upload the new apk to the store and in few hours we will verify your app.
+
+## Please feel free to ask any question in our [community Q&A](https://groups.google.com/forum/#!forum/bavel-support)

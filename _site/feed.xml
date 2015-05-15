@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 May 2015 00:09:26 +0300</pubDate>
-    <lastBuildDate>Sat, 16 May 2015 00:09:26 +0300</lastBuildDate>
+    <pubDate>Sat, 16 May 2015 00:16:10 +0300</pubDate>
+    <lastBuildDate>Sat, 16 May 2015 00:16:10 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -73,7 +73,7 @@
 &lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/1Ea6vR5&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/li&gt;
-  &lt;li&gt;Copy the file AAR file into the libs folder of your project
+  &lt;li&gt;Copy the AAR file into the libs folder of your project
 &lt;br /&gt;
 &lt;img src=&quot;/images/android_native_import_aar.png&quot; alt=&quot;Import AAR&quot; /&gt;
 &lt;br /&gt;&lt;/li&gt;
@@ -116,6 +116,15 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
+&lt;h4 id=&quot;note-the-sdk-require-these-permissions&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.INTERNET&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.ACCESS_NETWORK_STATE&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;continue-to-step-3getting-startedstep-3&quot;&gt;Continue to &lt;a href=&quot;/getting-started/#step-3&quot;&gt;Step 3&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
@@ -140,11 +149,12 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/unity_dev_id.png&quot; alt=&quot;Button Developer Id&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;note-the-sdk-require-these-permissions&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
+&lt;h4 id=&quot;note-the-sdk-require-these-permissions-1&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.INTERNET&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.ACCESS_NETWORK_STATE&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;h3 id=&quot;continue-to-step-3getting-startedstep-3-1&quot;&gt;Continue to &lt;a href=&quot;/getting-started/#step-3&quot;&gt;Step 3&lt;/a&gt;&lt;/h3&gt;
 </description>
         <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/download-and-install</link>
@@ -183,6 +193,8 @@ After you implement it correctly and launched the app with the SDK and your deve
 
 &lt;h3 id=&quot;why-is-my-app-state-unverified&quot;&gt;Why is my app state “Unverified”?&lt;/h3&gt;
 &lt;p&gt;Your app is waiting for verification by us. You should upload the new apk to the store and in few hours we will verify your app.&lt;/p&gt;
+
+&lt;h2 id=&quot;please-feel-free-to-ask-any-question-in-our-community-qahttpsgroupsgooglecomforumforumbavel-support&quot;&gt;Please feel free to ask any question in our &lt;a href=&quot;https://groups.google.com/forum/#!forum/bavel-support&quot;&gt;community Q&amp;amp;A&lt;/a&gt;&lt;/h2&gt;
 </description>
         <pubDate>Tue, 28 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/faq</link>

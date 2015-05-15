@@ -17,7 +17,7 @@ The end result should look something like that:
 
 ##Android Native - Android Studio
 * [Download](http://bit.ly/1Ea6vR5) the SDK package(AAR file)
-* Copy the file AAR file into the libs folder of your project
+* Copy the AAR file into the libs folder of your project
 <br/>
 ![Import AAR](/images/android_native_import_aar.png)
 <br/>
@@ -54,6 +54,18 @@ compile(name:'bavel_android_sdk_v01', ext:'aar')
 
 <br><br>
 
+#### Note: The SDK require these permissions:
+{% highlight xml %}
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+{% endhighlight %}
+
+
+### Continue to [Step 3](/getting-started/#step-3)
+
+<br/><br/>
+
+
 ##Android Unity3D
 1. ####[Download](http://bit.ly/1Kbb6uO) the SDK package(UnityPackage file)
 2. #### Import the package to your Unity project
@@ -74,3 +86,5 @@ Double click on the unity package file and click on Import
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 {% endhighlight %}
+
+### Continue to [Step 3](/getting-started/#step-3)
