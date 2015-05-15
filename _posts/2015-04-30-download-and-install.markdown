@@ -54,12 +54,6 @@ compile(name:'bavel_android_sdk_v01', ext:'aar')
 
 <br><br>
 
-#### Note: The SDK require these permissions:
-{% highlight xml %}
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-{% endhighlight %}
-
 
 ### Continue to [Step 3](/getting-started/#step-3)
 

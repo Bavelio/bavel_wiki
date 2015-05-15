@@ -18,4 +18,4 @@ After the SDK is implemented, launch your app with it and you should see it in y
 
 
 ##Step 4
-Upload your updated app to the store, and in few hours your app will be verified and you'll be able to watch states in the developers console.
+Upload your updated app to the store, and in few hours your app will be verified and you'll be able to watch your app parameters in the developers console.
