@@ -6,9 +6,9 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 May 2015 22:11:13 +0300</pubDate>
-    <lastBuildDate>Fri, 15 May 2015 22:11:13 +0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Fri, 15 May 2015 20:26:51 +0300</pubDate>
+    <lastBuildDate>Fri, 15 May 2015 20:26:51 +0300</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Welcome to Bavel community!</title>
@@ -37,7 +37,7 @@
 &lt;h2 id=&quot;jump-to-platform&quot;&gt;Jump to platform&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;android-nativeandroid-studioandroid-native&quot;&gt;&lt;a href=&quot;#android-native&quot;&gt;Android Native(Android Studio)&lt;/a&gt;&lt;/h4&gt;
+    &lt;h4 id=&quot;android-nativeandroid-native&quot;&gt;&lt;a href=&quot;#android-native&quot;&gt;Android Native&lt;/a&gt;&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;android-unity3dandroid-unity3d&quot;&gt;&lt;a href=&quot;#android-unity3d&quot;&gt;Android Unity3D&lt;/a&gt;&lt;/h4&gt;
@@ -45,55 +45,17 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#android-native&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Copy the file AAR file into the libs folder of your project
-&lt;img src=&quot;/images/android_native_import_aar.png&quot; alt=&quot;Import AAR&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Add the following lines into your &lt;code&gt;build.gradle&lt;/code&gt; file&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;repositories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;flatDir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;dirs&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;libs&amp;#39;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Add the following line into your &lt;code&gt;build.gradle&lt;/code&gt; file under dependencies section&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;android_sdk-release&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;aar&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/android_native_build_gradle.png&quot; alt=&quot;build.gradle&quot; /&gt;&lt;/p&gt;
-
+&lt;h2 id=&quot;android-native&quot;&gt;Android Native&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;add-bavel-button-to-your-layout-using-the-following-lines&quot;&gt;Add Bavel button to your layout using the following lines&lt;/h4&gt;
+    &lt;h4 id=&quot;downloadandroid-native-the-sdk-packageaar-file&quot;&gt;&lt;a href=&quot;#android-native&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;io.bavel.android_sdk.button.Button&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;xmlns:bavel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://schemas.android.com/apk/res-auto&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;bavel:developer_id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;FILL_DEVELOPER_ID_HERE&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;android:layout_height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;100dip&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;android:layout_width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;100dip&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;note-the-sdk-require-these-permissions&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;dont-forget-to-fill-your-developer-id-under-baveldeveloperid&quot;&gt;Don’t forget to fill your Developer ID under &lt;code&gt;bavel:developer_id&lt;/code&gt;&lt;/h4&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/android_native_final_result.png&quot; alt=&quot;native android final result&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;you-can-find-sample-app-in-our-repository&quot;&gt;You can find sample app in our repository&lt;/h4&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.INTERNET&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.ACCESS_NETWORK_STATE&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -121,7 +83,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/unity_dev_id.png&quot; alt=&quot;Button Developer Id&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;note-the-sdk-require-these-permissions&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
+&lt;h4 id=&quot;note-the-sdk-require-these-permissions-1&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.INTERNET&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.ACCESS_NETWORK_STATE&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -157,6 +119,13 @@ Its the blue button :)&lt;/p&gt;
 
 &lt;h3 id=&quot;where-do-i-start-br&quot;&gt;Where do I start? &lt;br /&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;/download-and-install&quot;&gt;Download and install our SDK&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;why-i-cant-see-any-apps-in-my-console&quot;&gt;Why I can’t see any apps in my console?&lt;/h3&gt;
+&lt;p&gt;You need to implement our SDK according to the instructions at &lt;a href=&quot;/download-and-install&quot;&gt;Download and install page&lt;/a&gt;.
+After you implement it correctly and launched the app with the SDK and your developer ID your app will appear in the console.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-is-my-app-state-unverified&quot;&gt;Why is my app state “Unverified”?&lt;/h3&gt;
+&lt;p&gt;Your app is waiting for verification by us. You should upload the new apk to the store and in few hours we will verify your app.&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/faq</link>
