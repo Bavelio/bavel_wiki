@@ -32,7 +32,7 @@ repositories{
 
 * Add the following line into your `build.gradle` file under dependencies section
 {% highlight js %}
-compile(name:'android_sdk-release', ext:'aar')
+compile(name:'bavel_android_sdk_v01', ext:'aar')
 {% endhighlight %}
 
 ![build.gradle](/images/android_native_build_gradle.png)
