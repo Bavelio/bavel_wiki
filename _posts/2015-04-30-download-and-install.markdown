@@ -16,7 +16,7 @@ The end result should look something like that:
 <br><br>
 
 ##Android Native - Android Studio
-* [Download](http://bit.ly/1Ea6vR5) the SDK package(AAR file)
+* [Download](bit.ly/1IDLaqZ) the SDK package(AAR file)
 * Copy the AAR file into the libs folder of your project
 <br/>
 ![Import AAR](/images/android_native_import_aar.png)
@@ -32,7 +32,7 @@ repositories{
 
 * Add the following line into your `build.gradle` file under dependencies section
 {% highlight js %}
-compile(name:'bavel_android_sdk_v01', ext:'aar')
+compile(name:'bavel_android_sdk', ext:'aar')
 {% endhighlight %}
 
 ![build.gradle](/images/android_native_build_gradle.png)
@@ -61,7 +61,7 @@ compile(name:'bavel_android_sdk_v01', ext:'aar')
 
 
 ##Android Unity3D
-1. ####[Download](http://bit.ly/1Kbb6uO) the SDK package(UnityPackage file)
+1. ####[Download](http://bit.ly/1H8HkR3) the SDK package(UnityPackage file)
 2. #### Import the package to your Unity project
 Double click on the unity package file and click on Import
 ![Import Package](/images/unity_import.png)
