@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Jun 2015 11:15:10 +0300</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 11:15:10 +0300</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 11:27:35 +0300</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 11:27:35 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -69,9 +69,7 @@ After that you’ll be able to see in the console parameters regarding your app.
 &lt;p&gt;&lt;img src=&quot;/images/unity_dev_id.png&quot; alt=&quot;Button Developer Id&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;note-the-sdk-require-these-permissions&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.INTERNET&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.ACCESS_NETWORK_STATE&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;script src=&quot;https://gist.github.com/chenb67/2b4afc88791aa3d5db63.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;continue-to-step-3getting-startedstep-3&quot;&gt;Continue to &lt;a href=&quot;/getting-started/#step-3&quot;&gt;Step 3&lt;/a&gt;&lt;/h3&gt;
 </description>
@@ -118,16 +116,8 @@ After that you’ll be able to see in the console parameters regarding your app.
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;add-bavel-button-to-your-layout-using-the-following-lines&quot;&gt;Add Bavel button to your layout using the following lines&lt;/h4&gt;
+    &lt;script src=&quot;https://gist.github.com/chenb67/002155bc1c3bf63f2e10.js&quot;&gt;&lt;/script&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;io.bavel.android_sdk.button.Button&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;xmlns:bavel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://schemas.android.com/apk/res-auto&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;bavel:developer_id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;FILL_DEVELOPER_ID_HERE&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;android:layout_height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;100dip&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;android:layout_width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;100dip&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;dont-forget-to-fill-your-developer-id-under-baveldeveloperid&quot;&gt;Don’t forget to fill your Developer ID under &lt;code&gt;bavel:developer_id&lt;/code&gt;&lt;/h4&gt;
   &lt;/li&gt;

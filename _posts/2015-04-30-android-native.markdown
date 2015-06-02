@@ -35,13 +35,7 @@ compile(name:'bavel_android_sdk', ext:'aar')
 
 
 * #### Add Bavel button to your layout using the following lines
-{% highlight xml %}
-<io.bavel.android_sdk.button.Button
-    xmlns:bavel="http://schemas.android.com/apk/res-auto"
-    bavel:developer_id="FILL_DEVELOPER_ID_HERE"
-    android:layout_height="100dip"
-    android:layout_width="100dip" />
-{% endhighlight %}
+<script src="https://gist.github.com/chenb67/002155bc1c3bf63f2e10.js"></script>
 
 * #### Don't forget to fill your Developer ID under `bavel:developer_id`
 * Now you should see our button in your layout

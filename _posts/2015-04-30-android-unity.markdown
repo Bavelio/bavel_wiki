@@ -27,9 +27,6 @@ Double click on the unity package file and click on Import
 ![Button Developer Id](/images/unity_dev_id.png)
 
 #### Note: The SDK require these permissions:
-{% highlight xml %}
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-{% endhighlight %}
+<script src="https://gist.github.com/chenb67/2b4afc88791aa3d5db63.js"></script>
 
 ### Continue to [Step 3](/getting-started/#step-3)
