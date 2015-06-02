@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>SDK Download and installation</title>
+    <title>Android Unity Implementation</title>
     <meta name="description" content="Bavel SDK documentation and general topics regarding implementaion, reported data, FAQ and others.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://wiki.bavel.io/download-and-install">
+    <link rel="canonical" href="http://wiki.bavel.io/android-unity">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
@@ -100,28 +100,41 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">SDK Download and installation</h1>
+    <h1 class="post-title">Android Unity Implementation</h1>
     <p class="post-meta" hidden="">Apr 29, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>This quick guide will teach you how to implement our SDK.</p>
-
-<p>The end result should look something like that:
-<img src="/images/example_app.png" alt="Example App" /></p>
-
-<h2 id="jump-to-platform">Jump to platform</h2>
+    <h2 id="android-unity3d">Android Unity3D</h2>
 <ol>
   <li>
-    <h4 id="android-nativeandroid-studioandroid-native---android-studio"><a href="#android-native---android-studio">Android Native(Android Studio)</a></h4>
+    <h4 id="downloadhttpbitly1h8hkr3-the-sdk-packageunitypackage-file"><a href="http://bit.ly/1H8HkR3">Download</a> the SDK package(UnityPackage file)</h4>
   </li>
   <li>
-    <h4 id="android-unity3dandroid-unity3d"><a href="#android-unity3d">Android Unity3D</a></h4>
-    <p><br /><br /></p>
+    <h4 id="import-the-package-to-your-unity-project">Import the package to your Unity project</h4>
+    <p>Double click on the unity package file and click on Import
+<img src="/images/unity_import.png" alt="Import Package" /></p>
+  </li>
+  <li>
+    <h4 id="place-our-button-in-the-scenes-you-want">Place our button in the scenes you want</h4>
+    <p>a. Select our prefab from the Assests/bavel folder
+  <img src="/images/unity_prefab.png" alt="Prefab Selection" />
+  b. Drag the prefab to the Canvas</p>
+  </li>
+  <li>
+    <h4 id="important--insert-your-developer-id-in-the-button-property">!!! Important !!! Insert your developer id in the button property</h4>
+    <p>You can find your developer id in the developers console: <a href="http://www.bavel.io/developers">Console</a></p>
   </li>
 </ol>
 
-<p><br /><br /></p>
+<p><img src="/images/unity_dev_id.png" alt="Button Developer Id" /></p>
+
+<h4 id="note-the-sdk-require-these-permissions">Note: The SDK require these permissions:</h4>
+
+<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.INTERNET&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.ACCESS_NETWORK_STATE&quot;</span><span class="nt">/&gt;</span></code></pre></div>
+
+<h3 id="continue-to-step-3getting-startedstep-3">Continue to <a href="/getting-started/#step-3">Step 3</a></h3>
 
   </article>
   <script>

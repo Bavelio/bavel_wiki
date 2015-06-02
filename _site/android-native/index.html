@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>SDK Download and installation</title>
+    <title>Android Native Implementation</title>
     <meta name="description" content="Bavel SDK documentation and general topics regarding implementaion, reported data, FAQ and others.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://wiki.bavel.io/download-and-install">
+    <link rel="canonical" href="http://wiki.bavel.io/android-native">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
@@ -100,28 +100,58 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">SDK Download and installation</h1>
+    <h1 class="post-title">Android Native Implementation</h1>
     <p class="post-meta" hidden="">Apr 29, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>This quick guide will teach you how to implement our SDK.</p>
+    <h2 id="android-native---android-studio">Android Native - Android Studio</h2>
+<ul>
+  <li><a href="http://bit.ly/1IDLaqZ">Download</a> the SDK package(AAR file)</li>
+  <li>Copy the AAR file into the libs folder of your project
+<br />
+<img src="/images/android_native_import_aar.png" alt="Import AAR" />
+<br /></li>
+  <li>Add the following lines into your <code>build.gradle</code> file</li>
+</ul>
 
-<p>The end result should look something like that:
-<img src="/images/example_app.png" alt="Example App" /></p>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">repositories</span><span class="p">{</span>
+    <span class="nx">flatDir</span><span class="p">{</span>
+        <span class="nx">dirs</span> <span class="s1">&#39;libs&#39;</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
 
-<h2 id="jump-to-platform">Jump to platform</h2>
-<ol>
+<ul>
+  <li>Add the following line into your <code>build.gradle</code> file under dependencies section</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">compile</span><span class="p">(</span><span class="nx">name</span><span class="o">:</span><span class="s1">&#39;bavel_android_sdk&#39;</span><span class="p">,</span> <span class="nx">ext</span><span class="o">:</span><span class="s1">&#39;aar&#39;</span><span class="p">)</span></code></pre></div>
+
+<p><img src="/images/android_native_build_gradle.png" alt="build.gradle" /></p>
+
+<ul>
   <li>
-    <h4 id="android-nativeandroid-studioandroid-native---android-studio"><a href="#android-native---android-studio">Android Native(Android Studio)</a></h4>
+    <h4 id="add-bavel-button-to-your-layout-using-the-following-lines">Add Bavel button to your layout using the following lines</h4>
   </li>
+</ul>
+
+<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;io.bavel.android_sdk.button.Button</span>
+    <span class="na">xmlns:bavel=</span><span class="s">&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="na">bavel:developer_id=</span><span class="s">&quot;FILL_DEVELOPER_ID_HERE&quot;</span>
+    <span class="na">android:layout_height=</span><span class="s">&quot;100dip&quot;</span>
+    <span class="na">android:layout_width=</span><span class="s">&quot;100dip&quot;</span> <span class="nt">/&gt;</span></code></pre></div>
+
+<ul>
   <li>
-    <h4 id="android-unity3dandroid-unity3d"><a href="#android-unity3d">Android Unity3D</a></h4>
-    <p><br /><br /></p>
+    <h4 id="dont-forget-to-fill-your-developer-id-under-baveldeveloperid">Don’t forget to fill your Developer ID under <code>bavel:developer_id</code></h4>
   </li>
-</ol>
+  <li>Now you should see our button in your layout
+<img src="/images/android_native_final_result.png" alt="native android final result" /></li>
+</ul>
 
 <p><br /><br /></p>
+
+<h3 id="continue-to-step-3getting-startedstep-3">Continue to <a href="/getting-started/#step-3">Step 3</a></h3>
 
   </article>
   <script>

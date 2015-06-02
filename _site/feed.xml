@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Jun 2015 22:59:51 +0300</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2015 22:59:51 +0300</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 11:08:01 +0300</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 11:08:01 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -72,7 +72,62 @@ After that you’ll be able to see in the console parameters regarding your app.
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
+        <link>http://wiki.bavel.io/download-and-install</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/download-and-install</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Android Unity Implementation</title>
+        <description>&lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;downloadhttpbitly1h8hkr3-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;http://bit.ly/1H8HkR3&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;import-the-package-to-your-unity-project&quot;&gt;Import the package to your Unity project&lt;/h4&gt;
+    &lt;p&gt;Double click on the unity package file and click on Import
+&lt;img src=&quot;/images/unity_import.png&quot; alt=&quot;Import Package&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;place-our-button-in-the-scenes-you-want&quot;&gt;Place our button in the scenes you want&lt;/h4&gt;
+    &lt;p&gt;a. Select our prefab from the Assests/bavel folder
+  &lt;img src=&quot;/images/unity_prefab.png&quot; alt=&quot;Prefab Selection&quot; /&gt;
+  b. Drag the prefab to the Canvas&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;important--insert-your-developer-id-in-the-button-property&quot;&gt;!!! Important !!! Insert your developer id in the button property&lt;/h4&gt;
+    &lt;p&gt;You can find your developer id in the developers console: &lt;a href=&quot;http://www.bavel.io/developers&quot;&gt;Console&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/unity_dev_id.png&quot; alt=&quot;Button Developer Id&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;note-the-sdk-require-these-permissions&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.INTERNET&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.ACCESS_NETWORK_STATE&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;continue-to-step-3getting-startedstep-3&quot;&gt;Continue to &lt;a href=&quot;/getting-started/#step-3&quot;&gt;Step 3&lt;/a&gt;&lt;/h3&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
+        <link>http://wiki.bavel.io/android-unity</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/android-unity</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Android Native Implementation</title>
+        <description>&lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/1IDLaqZ&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/li&gt;
   &lt;li&gt;Copy the AAR file into the libs folder of your project
@@ -119,43 +174,10 @@ After that you’ll be able to see in the console parameters regarding your app.
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;continue-to-step-3getting-startedstep-3&quot;&gt;Continue to &lt;a href=&quot;/getting-started/#step-3&quot;&gt;Step 3&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;downloadhttpbitly1h8hkr3-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;http://bit.ly/1H8HkR3&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;import-the-package-to-your-unity-project&quot;&gt;Import the package to your Unity project&lt;/h4&gt;
-    &lt;p&gt;Double click on the unity package file and click on Import
-&lt;img src=&quot;/images/unity_import.png&quot; alt=&quot;Import Package&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;place-our-button-in-the-scenes-you-want&quot;&gt;Place our button in the scenes you want&lt;/h4&gt;
-    &lt;p&gt;a. Select our prefab from the Assests/bavel folder
-  &lt;img src=&quot;/images/unity_prefab.png&quot; alt=&quot;Prefab Selection&quot; /&gt;
-  b. Drag the prefab to the Canvas&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;important--insert-your-developer-id-in-the-button-property&quot;&gt;!!! Important !!! Insert your developer id in the button property&lt;/h4&gt;
-    &lt;p&gt;You can find your developer id in the developers console: &lt;a href=&quot;http://www.bavel.io/developers&quot;&gt;Console&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/unity_dev_id.png&quot; alt=&quot;Button Developer Id&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;note-the-sdk-require-these-permissions&quot;&gt;Note: The SDK require these permissions:&lt;/h4&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.INTERNET&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.ACCESS_NETWORK_STATE&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;continue-to-step-3getting-startedstep-3-1&quot;&gt;Continue to &lt;a href=&quot;/getting-started/#step-3&quot;&gt;Step 3&lt;/a&gt;&lt;/h3&gt;
 </description>
         <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
-        <link>http://wiki.bavel.io/download-and-install</link>
-        <guid isPermaLink="true">http://wiki.bavel.io/download-and-install</guid>
+        <link>http://wiki.bavel.io/android-native</link>
+        <guid isPermaLink="true">http://wiki.bavel.io/android-native</guid>
         
         
         <category>general</category>
