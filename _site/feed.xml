@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Jun 2015 12:01:58 +0300</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 12:01:58 +0300</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 12:05:24 +0300</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 12:05:24 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -143,8 +143,8 @@ After that you’ll be able to see in the console parameters regarding your app.
         <description>&lt;h3 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h3&gt;
 &lt;p&gt;Bavel offers app developers to implement our button in their app which makes the app member in our network.
 From that moment we will send users to your app according to how good it is.&lt;br /&gt;
-&lt;img src=&quot;/images/example_app.png&quot; alt=&quot;Exmaple_app&quot; /&gt;
-Its the blue button :)&lt;/p&gt;
+&lt;img src=&quot;/images/android_mock.gif&quot; alt=&quot;Exmaple_app&quot; /&gt;
+It’s the blue button :)&lt;/p&gt;
 
 &lt;p&gt;The button from time to time will suggest your users to download apps from our network.&lt;/p&gt;
 
