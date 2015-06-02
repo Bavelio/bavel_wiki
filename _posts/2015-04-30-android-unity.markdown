@@ -8,7 +8,7 @@ categories: General
 This quick guide will teach you how to implement our SDK.
 
 The end result should look something like that:
-![Example App](/images/example_app.png)
+![Example App](/images/android_mock.gif)
 
 
 ##Android Unity3D

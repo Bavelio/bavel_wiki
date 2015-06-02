@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Jun 2015 11:27:35 +0300</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 11:27:35 +0300</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 12:01:58 +0300</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 12:01:58 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -42,7 +42,7 @@ After that you’ll be able to see in the console parameters regarding your app.
         <description>&lt;p&gt;This quick guide will teach you how to implement our SDK.&lt;/p&gt;
 
 &lt;p&gt;The end result should look something like that:
-&lt;img src=&quot;/images/example_app.png&quot; alt=&quot;Example App&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/android_mock.gif&quot; alt=&quot;Example App&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
 &lt;ol&gt;
@@ -87,7 +87,7 @@ After that you’ll be able to see in the console parameters regarding your app.
         <description>&lt;p&gt;This quick guide will teach you how to implement our SDK.&lt;/p&gt;
 
 &lt;p&gt;The end result should look something like that:
-&lt;img src=&quot;/images/example_app.png&quot; alt=&quot;Example App&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/android_mock.gif&quot; alt=&quot;Example App&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
 &lt;ul&gt;
@@ -122,7 +122,7 @@ After that you’ll be able to see in the console parameters regarding your app.
     &lt;h4 id=&quot;dont-forget-to-fill-your-developer-id-under-baveldeveloperid&quot;&gt;Don’t forget to fill your Developer ID under &lt;code&gt;bavel:developer_id&lt;/code&gt;&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;Now you should see our button in your layout
-&lt;img src=&quot;/images/android_native_final_result.png&quot; alt=&quot;native android final result&quot; /&gt;&lt;/li&gt;
+&lt;img src=&quot;/images/android_mock.gif&quot; alt=&quot;native android final result&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;

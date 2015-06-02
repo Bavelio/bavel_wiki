@@ -8,7 +8,7 @@ categories: General
 This quick guide will teach you how to implement our SDK.
 
 The end result should look something like that:
-![Example App](/images/example_app.png)
+![Example App](/images/android_mock.gif)
 
 
 ##Android Native - Android Studio
@@ -39,7 +39,7 @@ compile(name:'bavel_android_sdk', ext:'aar')
 
 * #### Don't forget to fill your Developer ID under `bavel:developer_id`
 * Now you should see our button in your layout
-![native android final result](/images/android_native_final_result.png)
+![native android final result](/images/android_mock.gif)
 
 
 <br><br>
