@@ -5,6 +5,12 @@ date:   2015-04-29 15:07:04
 categories: General
 ---
 
+This quick guide will teach you how to implement our SDK.
+
+The end result should look something like that:
+![Example App](/images/example_app.png)
+
+
 ##Android Native - Android Studio
 * [Download](http://bit.ly/1IDLaqZ) the SDK package(AAR file)
 * Copy the AAR file into the libs folder of your project

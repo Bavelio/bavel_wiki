@@ -1,9 +1,15 @@
 ---
 layout: post
-title:  "Android Unity Implementation"
+title:  "Unity Android Implementation"
 date:   2015-04-29 15:07:04
 categories: General
 ---
+
+This quick guide will teach you how to implement our SDK.
+
+The end result should look something like that:
+![Example App](/images/example_app.png)
+
 
 ##Android Unity3D
 1. ####[Download](http://bit.ly/1H8HkR3) the SDK package(UnityPackage file)

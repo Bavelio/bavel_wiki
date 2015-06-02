@@ -6,26 +6,9 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Jun 2015 11:08:01 +0300</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 11:08:01 +0300</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 11:15:10 +0300</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 11:15:10 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Welcome to Bavel community!</title>
-        <description>&lt;h4 id=&quot;youre-invited-to-join-our-communitygetting-started&quot;&gt;You’re invited to &lt;a href=&quot;/getting-started&quot;&gt;join our community&lt;/a&gt;.&lt;/h4&gt;
-
-&lt;h4 id=&quot;bavel-alpha-grouphttpsgroupsgooglecomforumforumbavel-alphabr&quot;&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/bavel-alpha&quot;&gt;Bavel Alpha group&lt;/a&gt;&lt;br /&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;community-qahttpsgroupsgooglecomforumforumbavel-support-br&quot;&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/bavel-support&quot;&gt;Community Q&amp;amp;A&lt;/a&gt; &lt;br /&gt;&lt;/h4&gt;
-</description>
-        <pubDate>Thu, 30 Apr 2015 18:07:04 +0300</pubDate>
-        <link>http://wiki.bavel.io/welcome-to-bavel</link>
-        <guid isPermaLink="true">http://wiki.bavel.io/welcome-to-bavel</guid>
-        
-        
-        <category>general</category>
-        
-      </item>
     
       <item>
         <title>Getting Started</title>
@@ -55,37 +38,13 @@ After that you’ll be able to see in the console parameters regarding your app.
       </item>
     
       <item>
-        <title>SDK Download and installation</title>
+        <title>Unity Android Implementation</title>
         <description>&lt;p&gt;This quick guide will teach you how to implement our SDK.&lt;/p&gt;
 
 &lt;p&gt;The end result should look something like that:
 &lt;img src=&quot;/images/example_app.png&quot; alt=&quot;Example App&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;jump-to-platform&quot;&gt;Jump to platform&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;android-nativeandroid-studioandroid-native---android-studio&quot;&gt;&lt;a href=&quot;#android-native---android-studio&quot;&gt;Android Native(Android Studio)&lt;/a&gt;&lt;/h4&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;android-unity3dandroid-unity3d&quot;&gt;&lt;a href=&quot;#android-unity3d&quot;&gt;Android Unity3D&lt;/a&gt;&lt;/h4&gt;
-    &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
-        <link>http://wiki.bavel.io/download-and-install</link>
-        <guid isPermaLink="true">http://wiki.bavel.io/download-and-install</guid>
-        
-        
-        <category>general</category>
-        
-      </item>
-    
-      <item>
-        <title>Android Unity Implementation</title>
-        <description>&lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
+&lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;downloadhttpbitly1h8hkr3-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;http://bit.ly/1H8HkR3&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
@@ -127,7 +86,12 @@ After that you’ll be able to see in the console parameters regarding your app.
     
       <item>
         <title>Android Native Implementation</title>
-        <description>&lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
+        <description>&lt;p&gt;This quick guide will teach you how to implement our SDK.&lt;/p&gt;
+
+&lt;p&gt;The end result should look something like that:
+&lt;img src=&quot;/images/example_app.png&quot; alt=&quot;Example App&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/1IDLaqZ&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/li&gt;
   &lt;li&gt;Copy the AAR file into the libs folder of your project
