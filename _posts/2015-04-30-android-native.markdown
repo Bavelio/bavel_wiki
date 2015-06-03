@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android Native Implementation"
+title:  "Android Implementation"
 date:   2015-04-29 15:07:04
 categories: General
 ---

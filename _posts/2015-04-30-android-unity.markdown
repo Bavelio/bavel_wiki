@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Unity Android Implementation"
-date:   2015-04-29 15:07:04
+title:  "Unity Implementation"
+date:   2015-04-29 15:06:04
 categories: General
 ---
 
@@ -21,7 +21,7 @@ Double click on the unity package file and click on Import
   ![Prefab Selection](/images/unity_prefab.png)
   b. Drag the prefab to the Canvas
 
-4. #### !!! Important !!! Insert your developer id in the button property
+4. #### <span style="color: red;">!! Important !! </span> Insert your developer id in the button property
   You can find your developer id in the developers console: [Console](http://www.bavel.io/developers)
 
 ![Button Developer Id](/images/unity_dev_id.png)
