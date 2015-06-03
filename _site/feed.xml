@@ -6,21 +6,21 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Jun 2015 12:55:11 +0300</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2015 12:55:11 +0300</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2015 13:25:54 +0300</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2015 13:25:54 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Getting Started</title>
         <description>&lt;h2 id=&quot;step-1&quot;&gt;Step 1&lt;/h2&gt;
-&lt;p&gt;Sign up to our developers &lt;a href=&quot;http://www.bavel.io/developers&quot;&gt;console&lt;/a&gt; to get a developer ID.
+&lt;p&gt;Sign up to our developers &lt;a href=&quot;http://www.bavel.io/console&quot;&gt;console&lt;/a&gt; to get a developer ID.
 &lt;img src=&quot;/images/dev_id.png&quot; alt=&quot;Developers Console&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;step-2&quot;&gt;Step 2&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/download-and-install&quot;&gt;Download and implement&lt;/a&gt; our SDK.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.bavel.io/select-platform&quot;&gt;Download our SDK&lt;/a&gt; our SDK.&lt;/p&gt;
 
 &lt;h2 id=&quot;step-3&quot;&gt;Step 3&lt;/h2&gt;
-&lt;p&gt;After the SDK is implemented, launch your app with it and you should see it in your developer &lt;a href=&quot;http://www.bavel.io/developers&quot;&gt;console&lt;/a&gt; with state “Unverified”.
+&lt;p&gt;After the SDK is implemented, launch your app with it and you should see it in your developer &lt;a href=&quot;http://www.bavel.io/console&quot;&gt;console&lt;/a&gt; with state “Unverified”.
 &lt;img src=&quot;/images/dev_unverified.png&quot; alt=&quot;Developer Unverified&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;step-4&quot;&gt;Step 4&lt;/h2&gt;
@@ -104,11 +104,12 @@ After that you’ll be able to see in the console parameters regarding your app.
 &lt;ol&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;downloadhttpwwwbaveliodownloadunity-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;http://www.bavel.io/download/unity&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
+    &lt;p&gt;Note: Only Android build is supported at the moment.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;import-the-package-to-your-unity-project&quot;&gt;Import the package to your Unity project&lt;/h4&gt;
     &lt;p&gt;Double click on the unity package file and click on Import
-&lt;img src=&quot;/images/unity_import.png&quot; alt=&quot;Import Package&quot; /&gt;&lt;/p&gt;
+&lt;img alt=&quot;Import&quot; width=&quot;250px&quot; height=&quot;250px&quot; src=&quot;/images/unity_import.png&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;place-our-button-in-the-scenes-you-want&quot;&gt;Place our button in the scenes you want&lt;/h4&gt;
@@ -158,7 +159,7 @@ It’s the blue button :)&lt;/p&gt;
 &lt;p&gt;No, even if your app doesn’t have any users/traffic you will be promoted according to our algorithms assessment only.&lt;/p&gt;
 
 &lt;h3 id=&quot;where-do-i-start-br&quot;&gt;Where do I start? &lt;br /&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;/download-and-install&quot;&gt;Download and install our SDK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/getting-started&quot;&gt;Getting Started&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;why-i-cant-see-any-apps-in-my-console&quot;&gt;Why I can’t see any apps in my console?&lt;/h3&gt;
 &lt;p&gt;You need to implement our SDK according to the instructions at &lt;a href=&quot;/download-and-install&quot;&gt;Download and install page&lt;/a&gt;.

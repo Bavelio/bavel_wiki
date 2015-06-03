@@ -22,7 +22,7 @@ No, our network suggests content based on our algorithms only, which measures ou
 No, even if your app doesn't have any users/traffic you will be promoted according to our algorithms assessment only.
 
 ### Where do I start? <br>
-[Download and install our SDK](/download-and-install)
+[Getting Started](/getting-started)
 
 ### Why I can't see any apps in my console?
 You need to implement our SDK according to the instructions at [Download and install page](/download-and-install).

@@ -13,9 +13,10 @@ The end result should look something like that:
 
 ##Android Unity3D
 1. ####[Download](http://www.bavel.io/download/unity) the SDK package(UnityPackage file)
+Note: Only Android build is supported at the moment.
 2. #### Import the package to your Unity project
 Double click on the unity package file and click on Import
-![Import Package](/images/unity_import.png)
+<img alt="Import" width="250px" height="250px" src="/images/unity_import.png"/>
 3. #### Place our button in the scenes you want
   a. Select our prefab from the Assests/bavel folder
   ![Prefab Selection](/images/unity_prefab.png)
