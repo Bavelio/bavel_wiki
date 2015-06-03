@@ -7,17 +7,21 @@ categories: General
 
 ##Step 1
 Sign up to our developers [console](http://www.bavel.io/console) to get a developer ID.
-![Developers Console](/images/dev_id.png)
+![Developer ID](/images/gs_steps/1.gif)
 
 ##Step 2
-[Download our SDK](http://www.bavel.io/select-platform) our SDK.
+[Download](http://www.bavel.io/select-platform) our SDK (From here or through the console).
+![SDK download](/images/gs_steps/2.gif)
+Implement it using our guides in this wiki
 
 ##Step 3
-After the SDK is implemented, launch your app with it and you should see it in your developer [console](http://www.bavel.io/console) with state "Unverified".
-![Developer Unverified](/images/dev_unverified.png)
+After the SDK is implemented, launch your app and you should see your app in your developer [console](http://www.bavel.io/console) with the state "Unverified".
+![Unverified state](/images/gs_steps/3.gif)
 
 
 ##Step 4
-Upload your updated app to the store, our system will download your app from the store and verify it.
+Upload your updated app to the store, we will verify your app once it is published.
+![verified state](/images/gs_steps/4.gif)
+
 After that you'll be able to see in the console parameters regarding your app.
-![Developers Console](/images/dev_console.png)
+![app params](/images/gs_steps/5.gif)

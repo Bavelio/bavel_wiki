@@ -6,27 +6,31 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Jun 2015 13:25:54 +0300</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2015 13:25:54 +0300</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2015 14:37:03 +0300</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2015 14:37:03 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Getting Started</title>
         <description>&lt;h2 id=&quot;step-1&quot;&gt;Step 1&lt;/h2&gt;
 &lt;p&gt;Sign up to our developers &lt;a href=&quot;http://www.bavel.io/console&quot;&gt;console&lt;/a&gt; to get a developer ID.
-&lt;img src=&quot;/images/dev_id.png&quot; alt=&quot;Developers Console&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/gs_steps/1.gif&quot; alt=&quot;Developer ID&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;step-2&quot;&gt;Step 2&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.bavel.io/select-platform&quot;&gt;Download our SDK&lt;/a&gt; our SDK.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.bavel.io/select-platform&quot;&gt;Download&lt;/a&gt; our SDK (From here or through the console).
+&lt;img src=&quot;/images/gs_steps/2.gif&quot; alt=&quot;SDK download&quot; /&gt;
+Implement it using our guides in this wiki&lt;/p&gt;
 
 &lt;h2 id=&quot;step-3&quot;&gt;Step 3&lt;/h2&gt;
-&lt;p&gt;After the SDK is implemented, launch your app with it and you should see it in your developer &lt;a href=&quot;http://www.bavel.io/console&quot;&gt;console&lt;/a&gt; with state “Unverified”.
-&lt;img src=&quot;/images/dev_unverified.png&quot; alt=&quot;Developer Unverified&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After the SDK is implemented, launch your app and you should see your app in your developer &lt;a href=&quot;http://www.bavel.io/console&quot;&gt;console&lt;/a&gt; with the state “Unverified”.
+&lt;img src=&quot;/images/gs_steps/3.gif&quot; alt=&quot;Unverified state&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;step-4&quot;&gt;Step 4&lt;/h2&gt;
-&lt;p&gt;Upload your updated app to the store, our system will download your app from the store and verify it.
-After that you’ll be able to see in the console parameters regarding your app.
-&lt;img src=&quot;/images/dev_console.png&quot; alt=&quot;Developers Console&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Upload your updated app to the store, we will verify your app once it is published.
+&lt;img src=&quot;/images/gs_steps/4.gif&quot; alt=&quot;verified state&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After that you’ll be able to see in the console parameters regarding your app.
+&lt;img src=&quot;/images/gs_steps/5.gif&quot; alt=&quot;app params&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Apr 2015 18:07:04 +0300</pubDate>
         <link>http://wiki.bavel.io/getting-started</link>
