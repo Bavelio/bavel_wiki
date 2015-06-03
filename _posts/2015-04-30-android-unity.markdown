@@ -12,7 +12,7 @@ The end result should look something like that:
 
 
 ##Android Unity3D
-1. ####[Download](http://bit.ly/1H8HkR3) the SDK package(UnityPackage file)
+1. ####[Download](http://www.bavel.io/download/unity) the SDK package(UnityPackage file)
 2. #### Import the package to your Unity project
 Double click on the unity package file and click on Import
 ![Import Package](/images/unity_import.png)

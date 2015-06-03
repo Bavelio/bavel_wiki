@@ -12,7 +12,7 @@ The end result should look something like that:
 
 
 ##Android Native - Android Studio
-* [Download](http://bit.ly/1IDLaqZ) the SDK package(AAR file)
+* [Download](http://www.bavel.io/download/android) the SDK package(AAR file)
 * Copy the AAR file into the libs folder of your project
 <br/>
 ![Import AAR](/images/android_native_import_aar.png)

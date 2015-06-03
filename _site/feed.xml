@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Jun 2015 12:50:50 +0300</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2015 12:50:50 +0300</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2015 12:55:11 +0300</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2015 12:55:11 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -46,7 +46,7 @@ After that you’ll be able to see in the console parameters regarding your app.
 
 &lt;h2 id=&quot;android-native---android-studio&quot;&gt;Android Native - Android Studio&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/1IDLaqZ&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bavel.io/download/android&quot;&gt;Download&lt;/a&gt; the SDK package(AAR file)&lt;/li&gt;
   &lt;li&gt;Copy the AAR file into the libs folder of your project
 &lt;br /&gt;
 &lt;img src=&quot;/images/android_native_import_aar.png&quot; alt=&quot;Import AAR&quot; /&gt;
@@ -103,7 +103,7 @@ After that you’ll be able to see in the console parameters regarding your app.
 &lt;h2 id=&quot;android-unity3d&quot;&gt;Android Unity3D&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;downloadhttpbitly1h8hkr3-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;http://bit.ly/1H8HkR3&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
+    &lt;h4 id=&quot;downloadhttpwwwbaveliodownloadunity-the-sdk-packageunitypackage-file&quot;&gt;&lt;a href=&quot;http://www.bavel.io/download/unity&quot;&gt;Download&lt;/a&gt; the SDK package(UnityPackage file)&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;import-the-package-to-your-unity-project&quot;&gt;Import the package to your Unity project&lt;/h4&gt;
