@@ -25,7 +25,8 @@ No, even if your app doesn't have any users/traffic you will be promoted accordi
 [Getting Started](/getting-started)
 
 ### Why I can't see any apps in my console?
-You need to implement our SDK according to the instructions at [Download and install page](/download-and-install).
+You need to implement our SDK according to the instructions at the relevant platform page.<br>
+<span style="font-size:0.8em">(check [Getting Started](/getting-started))</span> <br>
 After you implement it correctly and launched the app with the SDK and your developer ID your app will appear in the console.
 
 ### Why is my app state "Unverified"?

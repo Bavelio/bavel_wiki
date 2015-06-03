@@ -6,8 +6,8 @@
 </description>
     <link>http://wiki.bavel.io/</link>
     <atom:link href="http://wiki.bavel.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Jun 2015 14:37:03 +0300</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2015 14:37:03 +0300</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2015 14:54:49 +0300</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2015 14:54:49 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -166,7 +166,8 @@ It’s the blue button :)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/getting-started&quot;&gt;Getting Started&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;why-i-cant-see-any-apps-in-my-console&quot;&gt;Why I can’t see any apps in my console?&lt;/h3&gt;
-&lt;p&gt;You need to implement our SDK according to the instructions at &lt;a href=&quot;/download-and-install&quot;&gt;Download and install page&lt;/a&gt;.
+&lt;p&gt;You need to implement our SDK according to the instructions at the relevant platform page.&lt;br /&gt;
+&lt;span style=&quot;font-size:0.8em&quot;&gt;(check &lt;a href=&quot;/getting-started&quot;&gt;Getting Started&lt;/a&gt;)&lt;/span&gt; &lt;br /&gt;
 After you implement it correctly and launched the app with the SDK and your developer ID your app will appear in the console.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-is-my-app-state-unverified&quot;&gt;Why is my app state “Unverified”?&lt;/h3&gt;
