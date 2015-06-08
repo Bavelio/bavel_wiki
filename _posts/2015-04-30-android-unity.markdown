@@ -23,7 +23,7 @@ Double click on the unity package file and click on Import
   b. Drag the prefab to the Canvas
 
 4. #### <span style="color: red;">!! Important !! </span> Insert your developer id in the button property
-  You can find your developer id in the developers console: [Console](http://www.bavel.io/developers)
+  You can find your developer id in the developers console: [Console](http://www.bavel.io/console)
 
 ![Button Developer Id](/images/unity_dev_id.png)
 
